@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light only">
+  <title>Andrew Yorke | Home</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" href="images/pageLogo.webp" type="image/webp">
+  <meta property="og:title" content="Andrew Yorke" />
+  <meta property="og:description"
+    content="Experienced Unity Game Developer specializing in C#, multiplayer systems, and optimized gameplay. Crafting smooth and immersive experiences." />
+  <meta property="og:image" content="/images/OG_Collage.webp" />
+</head>
+
+<body>
+  <div class="topBar">
+    <a onclick="scrollToTop()">
+      <h1>Andrew Yorke</h1>
+    </a>
+    <div class="hyperlinks">
+      <a onclick="scrollToTop()">
+        <h2>About Me</h2>
+      </a>
+      <a onclick="scrollToPoint('projectsHolder', 250)">
+        <h2>Projects</H2>
+      </a>
+      <a onclick="scrollToPoint('skillsHolder', 250)"></aonclick>
+        <h2>Skills</h2>
+      </a>
+      <a onclick="scrollToPoint('experienceHolder', 250)">
+        <h2>Experience</h2>
+      </a>
+      <a onclick="scrollToPoint('toolsHolder', 250)"></aonclick>
+        <h2>Tools</h2>
+      </a>
+    </div>
+  </div>
+  <div id="aboutMe">
+    <img alt="profilePic" id="profilePic" src="images/profile_pic.webp">
+    <div id="aboutMeDetails">
+      <div>
+        <h1>Andrew Yorke</h1>
+        <h2>Unity Game Developer </h2>
+      </div>
+      <div>
+        <h4>Email:</h4>
+        <h2>aleyyorke@gmail.com </h2>
+      </div>
+      <div>
+        <h4>Location:</h4>
+        <h2>Bangalore, Karnataka, India </h2>
+      </div>
+      <div id="socialButtons">
+        <a href="https://itch.io/profile/alexander9727">
+          <img alt="itch.io logo" src="images/itchio-textless-black.webp" class="socialButton" id="itchLogo">
+        </a>
+        <a href="https://www.linkedin.com/in/andrew-yorke-561520135/">
+          <img alt="linkedin.com logo" src="images/InBug-White.webp" class="socialButton">
+        </a>
+        <a href="https://github.com/alexander9727">
+          <img alt="github.com logo" src="images/github-mark-white.webp" class="socialButton">
+        </a>
+      </div>
+      <div>
+        <button class="projectButton highlightButton" onclick="openInNewTab('Andrew_Yorke_Resume_01.pdf')">
+          Download CV
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="aboutMeParagraph">
+    <p>I am an experienced Game Developer specializing in Unity and C#, with a focus on gameplay programming, system
+      development,
+      and
+      multiplayer integration. I have worked on puzzle, strategy, and hypercasual games, building scalable systems that
+      enhance performance and player engagement. My expertise includes Unity’s event-driven architecture, Scriptable
+      Objects,
+      object pooling, and optimizing game performance. I also develop custom tools to improve workflow efficiency.
+      Experienced
+      in integrating Firebase, Unity Ads, and Photon Fusion, I strive to create smooth and immersive gameplay
+      experiences.</p>
+  </div>
+  <h1 class="centerTitle">Projects</h1>
+  <div id="projectsHolder" class="cardGrid">
+  </div>
+  <h1 class="centerTitle">Skills</h1>
+  <div id="skillsHolder" class="cardGrid">
+    <template id="skillsTemplate">
+      <div class="card relativePosition">
+        <div>
+          <p>
+            Experienced in implementing real-time multiplayer features, including network synchronization, matchmaking,
+            and lobby systems using Photon Fusion and PUN2. Demonstrated ability to design and develop multiplayer
+            gameplay experiences, ensuring smooth functionality across different devices and network conditions.
+          </p>
+        </div>
+        <div class="hoverDisolve">
+          <h1>Multiplayer Game Development</h1>
+        </div>
+      </div>
+    </template>
+  </div>
+  <h1 class="centerTitle">Experience</h1>
+  <div id="experienceHolder">
+  </div>
+  <h1 class="centerTitle">Tools</h1>
+  <div id="toolsHolder" class="cardGrid bigWidth">
+    <template id="toolsTemplate">
+      <div class="card relativePosition">
+        <div>
+          <p>
+            Experienced in implementing real-time multiplayer features, including network synchronization, matchmaking,
+            and lobby systems using Photon Fusion and PUN2. Demonstrated ability to design and develop multiplayer
+            gameplay experiences, ensuring smooth functionality across different devices and network conditions.
+          </p>
+        </div>
+        <div class="hoverDisolve">
+          <h1>Multiplayer Game Development</h1>
+          <h2>Advanced</h2>
+        </div>
+      </div>
+    </template>
+  </div>
+  <div class="footer"></div>
+  <script src="app.js"></script>
+  <noscript>You need JavaScript to view this page</noscript>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Experimental top bar
+<div class="topBar">
+  <div class="hyperlinks">
+    <a>
+      <h2>Projects</H2>
+    </a>
+    <a>
+      <h2>Experience</h2>
+    </a>
+    <a>
+      <h1>Andrew Yorke</h1>
+    </a>
+    <a>
+      <h2>Skills</h2>
+    </a>
+    <a>
+      <h2>Education</h2>
+    </a>
+  </div>
+</div> -->

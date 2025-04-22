@@ -1,0 +1,26 @@
+{
+  "multiplayer_game_development": {
+    "Skill name": "Multiplayer Game Development",
+    "Description": "Experienced in implementing real-time multiplayer features, including network synchronization, matchmaking, and lobby systems using Photon Fusion and PUN2. Demonstrated ability to design and develop multiplayer gameplay experiences, ensuring smooth functionality across different devices and network conditions."
+  },
+  "game_localization": {
+    "Skill name": "Game Localization",
+    "Description": "Skilled in creating custom localization packages, including seamless integration of multi-language support and content management using external tools like Google Sheets for efficient translation handling."
+  },
+  "dialogue_systems": {
+    "Skill name": "Dialogue Systems",
+    "Description": "Proficient in developing dynamic, branching dialogue systems that support flexible decision-making and influence the narrative, creating immersive, player-driven experiences."
+  },
+  "monetization_(in-app_purchases_&_ads)": {
+    "Skill name": "Monetization (In-App Purchases & Ads)",
+    "Description": "Experienced in integrating in-app purchases and Unity Ads for mobile games, optimizing monetization without disrupting the gameplay experience, and enhancing user engagement."
+  },
+  "database_management": {
+    "Skill name": "Database Management",
+    "Description": "Familiar with managing cloud-based player data and integrating services like Firebase for real-time data syncing, authentication, and player data storage."
+  },
+  "game_optimization": {
+    "Skill name": "Game Optimization",
+    "Description": "Skilled in optimizing games for mobile platforms, focusing on performance, load times, and user experience to ensure smooth gameplay on a variety of devices."
+  }
+}

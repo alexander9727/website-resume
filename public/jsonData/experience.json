@@ -1,0 +1,26 @@
+{
+  "april_2021_-_december_2024": {
+    "Tenure": "April 2021 - December 2024",
+    "Company": "Holy Cow Productions, Bangalore",
+    "Position": "Game Developer",
+    "Work done": "Worked on several games including Agents of Influence, Rights Arcade, Kings Kombat, Kings Defence, and Kings Royale. Contributed to all stages of development, from initial concepts to final releases. Led the development of multiplayer systems, data syncing between the game and website, and created flexible designs for new projects. Designed tools to facilitate level creation and ensure a smooth workflow for future developers. Collaborated with the team to ensure smooth transitions and handed off projects to other developers when appropriate. Designed and implemented systems to empower designers to work independently while contributing design inputs on most projects."
+  },
+  "january_2021_-_april_2021": {
+    "Tenure": "January 2021 - April 2021",
+    "Company": "Digikhel, Bangalore",
+    "Position": "Intern Game Developer",
+    "Work done": "Developed 3 games, including a word search competition game, a dungeon racing game with procedural generation, and a racing game involving obstacle dodging and boost pads. Worked independently on all coding, visual, and audio integration for these projects. Designed and implemented a local pseudo-multiplayer system that recorded and replayed data for new players, and created a package for basic UI, including the main menu and game over screens."
+  },
+  "may_2017_-_may_2018": {
+    "Tenure": "May 2017 - May 2018",
+    "Company": "Lazy Couch Studio, Bangalore",
+    "Position": "Game Developer",
+    "Work done": "I worked on various client-facing projects, including Rush Kart Racing 3D, a series of quiz-based learning games, and several hypercasual games. My responsibilities included bug fixing, updating UI, integrating shops, and designing new levels. I utilized mesh compression, object pooling, multiplayer integration with PUN2, and tools like spline and tweening for enhanced animations and movements. Additionally, I created a reusable package for Google Play Games integration and basic UI functionality for multiple projects and integrated leaderboards for various games. I also gained experience with WebGL."
+  },
+  "decemeber_2016_-_february_2017": {
+    "Tenure": "Decemeber 2016 - February 2017",
+    "Company": "Arcanheim Interactive LLP, Pune",
+    "Position": "Intern Game Developer",
+    "Work done": "During my internship at Arcanheim Interactive LLP, I contributed to the development of Tale of Prisso, a puzzle game focused on refracting and reflecting light. I was responsible for implementing light mechanics and additional features such as a gravity well effect. Additionally, I assisted with animation integration, player movement, and optimizing the code. The game was developed using Unity."
+  }
+}
