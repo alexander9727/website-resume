@@ -1,4 +1,10 @@
 {
+  "may_2025_-_present": {
+    "Tenure": "May 2025 - Present",
+    "Company": "Gameberry Labs, Bangalore",
+    "Position": "Game Developer II",
+    "Work done": "Worked on Draw Match Kingdom, a casual mobile game. Refactored core systems to improve code maintainability and scalability. Built and maintained live ops features and a debug menu toolset for QA and production teams. Extended and maintained a GitLab CI/CD pipeline for automated Unity builds, enabling branch selection, S3 upload, and Slack notifications; added feature tagging and fixed webhook status updates. Also contributed to server-side work on GCloud infrastructure, including API integration and payment flow migration from WebSockets to HTTP."
+  },
   "april_2021_-_december_2024": {
     "Tenure": "April 2021 - December 2024",
     "Company": "Holy Cow Productions, Bangalore",

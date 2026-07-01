@@ -173,6 +173,7 @@ p {
 
 .projectThumbnail {
   /* max-width: 20em; */
+  min-height: 13em;
   max-height: 13em;
 }
 
