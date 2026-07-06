@@ -2,32 +2,141 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andrew Yorke</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light only" />
+  <title>Andrew Yorke | New</title>
+  <meta property="og:title" content="Andrew Yorke" />
+  <meta property="og:description"
+    content="Unity Game Developer with experience in multiplayer systems, tools, optimization, and cross-platform game development." />
+  <meta property="og:image" content="../images/OG_Collage.webp" />
+  <link rel="icon" href="../images/pageLogo.webp" type="image/webp" />
   <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
-  <div id="topBar">
-    <div id="nameDisplay">
-      <h1>Andrew Yorke</h1>
-      <h6>Unity Game Developer</h6>
-    </div>
-    <div id="socials">
-      <a href="https://itch.io/profile/alexander9727">
-        <svg src="https://static.itch.io/images/itchio-textless-black.svg" alt="itch.io logo" title="itch.io"
-          class="socialButton"></svg>
-      </a>
-      <a href="https://www.linkedin.com/in/andrew-yorke-561520135/">
-        <img alt="linkedin.com logo" src="content/logo-Linkedin.png" class="socialButton" title="linkedin">
-      </a>
-      <a href="content/Andrew_Yorke_Resume_V_09.pdf">
-        <h3>Resume</h3>
-      </a>
-    </div>
-  </div>
-  <script src="PageCache.js"></script>
+  <header class="topBar">
+    <a class="brand" href="#top" onclick="scrollToTop(); return false;">
+      <span class="brandMark">AY</span>
+      <span>
+        <strong>Andrew Yorke</strong>
+        <small>Unity Game Developer</small>
+      </span>
+    </a>
+    <nav class="hyperlinks" aria-label="Page sections">
+      <a href="#about" onclick="scrollToSection('about'); return false;">About</a>
+      <a href="#projects" onclick="scrollToSection('projects'); return false;">Projects</a>
+      <a href="#skills" onclick="scrollToSection('skills'); return false;">Tools & Skills</a>
+      <a href="#experience" onclick="scrollToSection('experience'); return false;">Experience</a>
+    </nav>
+  </header>
+
+  <main id="top" class="pageShell">
+    <section id="about" class="heroCard">
+      <div class="heroCopy">
+        <p class="eyebrow">Game developer - Unity - Multiplayer - Tools</p>
+        <h1>Building polished, performant games with a strong technical backbone.</h1>
+        <p class="lead">
+          I'm a Unity Game Developer with six years of professional experience across puzzle, strategy, casual, and
+          hypercasual games on mobile and WebGL. My work spans multiplayer systems, optimisation, editor tooling,
+          CI/CD, and live game maintenance.
+        </p>
+        <div class="ctaRow">
+          <button class="primaryButton" onclick="openInNewTab('../Andrew_Yorke_Resume_01.pdf')">Download CV</button>
+          <a class="secondaryButton iconButton" href="mailto:aleyyorke@gmail.com" aria-label="Email me">
+            <img src="../images/email-icon.svg" alt="" />
+          </a>
+          <div class="socialRow" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/andrew-yorke-561520135/" target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <img src="../images/InBug-White.webp" alt="" />
+            </a>
+            <a href="https://github.com/alexander9727" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="../images/github-mark-white.webp" alt="" />
+            </a>
+            <a href="https://itch.io/profile/alexander9727" target="_blank" rel="noopener noreferrer"
+              aria-label="itch.io">
+              <img class="itchLogo" src="../images/itchio-textless-black.webp" alt="" />
+            </a>
+          </div>
+        </div>
+        <ul class="quickFacts" aria-label="Highlights">
+          <li>6+ years professional experience</li>
+          <li>Unity, C#, Photon, Firebase</li>
+          <li>Mobile, WebGL, and multiplayer delivery</li>
+        </ul>
+      </div>
+
+      <div class="heroVisual">
+        <img id="profilePic" src="../images/profile_pic.webp" alt="Andrew Yorke portrait" />
+        <div class="heroPanel">
+          <div>
+            <span class="label">Location</span>
+            <strong>Bangalore, Karnataka, India</strong>
+          </div>
+          <div>
+            <span class="label">Email</span>
+            <strong>aleyyorke@gmail.com</strong>
+          </div>
+          <div>
+            <span class="label">Focus</span>
+            <strong>Gameplay, tools, and multiplayer systems</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="sectionBlock">
+      <div class="sectionHeading">
+        <h2>Projects</h2>
+        <p>Selected work across commercial, experimental, and web-based games.</p>
+      </div>
+      <div id="projectsHolder" class="cardGrid"></div>
+    </section>
+
+    <section id="skills" class="sectionBlock">
+      <div class="sectionHeading">
+        <h2>Tools & Skills</h2>
+        <p>A focused look at the core technologies and strengths behind my work.</p>
+      </div>
+      <div class="sectionStack">
+        <div class="subsectionHeader">
+          <h3>Skills</h3>
+        </div>
+        <div id="skillsHolder" class="cardGrid">
+          <template id="skillsTemplate">
+            <article class="infoCard">
+              <p></p>
+              <div class="infoCardFooter">
+                <h3></h3>
+              </div>
+            </article>
+          </template>
+        </div>
+
+        <div class="subsectionHeader">
+          <h3>Tools</h3>
+        </div>
+        <div id="toolsHolder" class="toolGroupList">
+          <template id="toolsTemplate">
+            <article class="toolGroupRow">
+              <h4></h4>
+              <div class="chipList"></div>
+            </article>
+          </template>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="sectionBlock">
+      <div class="sectionHeading">
+        <h2>Experience</h2>
+        <p>A quick view of the teams and roles behind the work.</p>
+      </div>
+      <div id="experienceHolder" class="experienceList"></div>
+    </section>
+  </main>
+
   <script src="app.js"></script>
   <noscript>You need JavaScript to view this page</noscript>
 </body>

@@ -1,0 +1,22 @@
+{
+  "languages": {
+    "Skill name": "Languages",
+    "Description": "C# is the language I use to build gameplay systems, editor tooling, data handling, and project-specific utilities in Unity. I’m comfortable using it to shape maintainable code that stays readable as projects scale."
+  },
+  "game_engine": {
+    "Skill name": "Game Engine",
+    "Description": "Unity is the engine where I spend most of my time, from gameplay programming and UI to optimization and production support. I’ve used it across mobile, WebGL, and multiplayer projects with an emphasis on making systems flexible for designers."
+  },
+  "networking": {
+    "Skill name": "Networking",
+    "Description": "I’ve worked on real-time multiplayer features using Photon Fusion and Photon PUN, including room flow, synchronization, and gameplay state management. My focus is on making networked gameplay feel stable, responsive, and easy to extend."
+  },
+  "backend": {
+    "Skill name": "Backend",
+    "Description": "I’ve integrated Firebase and Google Cloud into live projects for player data, authentication, server-side support, and operational workflows. That experience has helped me connect game clients cleanly to backend services without making the gameplay code brittle."
+  },
+  "other": {
+    "Skill name": "Other",
+    "Description": "I’m also comfortable with Git, CI/CD pipelines, and REST APIs, especially where they support build automation, collaboration, and game-to-service communication. These are the tools that help keep the rest of the pipeline smooth and reliable."
+  }
+}

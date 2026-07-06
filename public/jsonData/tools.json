@@ -1,32 +1,50 @@
 {
   "unity_3d": {
     "Skill": "Unity 3D",
-    "Rating (5)": 4,
+    "Rating (5)": 5,
     "Level": "Advanced",
-    "Description": "Experienced in Unity development, specializing in gameplay programming, UI design, and optimization. Proficient in scene management, prefabs, scriptable objects, and event-driven programming. Skilled in physics-based interactions, animation systems (Animator, blend trees, inverse kinematics), and UI development optimized for various screen sizes and notch support. Knowledgeable in performance optimization with object pooling and the Unity Profiler, as well as networking with UnityWebRequest. Additional expertise includes monetization through Unity Ads and IAP, along with developing custom inspectors and editor tools to enhance workflow efficiency."
+    "Description": "Main game engine for gameplay programming, UI, scene management, optimization, and editor tooling across mobile and WebGL projects."
   },
-  "c#": {
+  "csharp": {
     "Skill": "C#",
-    "Rating (5)": 4,
+    "Rating (5)": 5,
     "Level": "Advanced",
-    "Description": "Skilled in C# with a focus on object-oriented programming (OOP) principles for Unity game development. Proficient in LINQ for data manipulation, async programming, and applying System.Reflection for dynamic code inspection. Experienced with System.Text for text processing, and Regex for replacing phrases with dynamic data. Adept at manually parsing CSV, TSV, and using Newtonsoft.JSON for JSON and System.Text.XML for XML, ensuring efficient data handling in Unity-based games."
+    "Description": "Primary language for gameplay systems, tools, data handling, and Unity scripting with a focus on clean, maintainable code."
   },
-  "firebase": {
-    "Skill": "Firebase",
-    "Rating (5)": 3,
-    "Level": "Intermediate",
-    "Description": "Experienced with integrating a wide range of Firebase packages into Unity to enhance mobile game functionality. Proficient in Firebase Authentication for user authentication, primarily using email/password. Skilled in Firebase Realtime Database for live data storage and Firestore for scalable NoSQL database solutions. Familiar with Firebase Cloud Messaging (FCM) for push notifications and messaging to engage players in real-time. Experienced with Firebase Analytics for tracking user behavior and app performance, enabling data-driven decisions. Utilized Firebase Crashlytics for real-time error reporting, enhancing app stability. Also used Firebase Cloud Functions to implement serverless logic."
-  },
-  "photon_unity_services": {
+  "photon": {
     "Skill": "Photon Unity Services",
     "Rating (5)": 4,
     "Level": "Advanced",
-    "Description": "Experienced in using Photon Unity Services to implement real-time multiplayer experiences in Unity, with a focus on Photon Fusion and PUN2 for networking and player connections. Utilized Photon’s lobby system, room persistence, and matchmaking to create dynamic multiplayer environments. Proficient in handling network synchronization for player interactions and game state across the network. Implemented custom networking logic to synchronize rigid body physics across the network for consistent gameplay experiences."
+    "Description": "Used Photon Fusion and PUN2 for multiplayer gameplay, network synchronization, room flow, and lobby systems."
   },
-  "unreal_engine": {
-    "Skill": "Unreal Engine",
-    "Rating (5)": 2,
+  "firebase": {
+    "Skill": "Firebase",
+    "Rating (5)": 4,
     "Level": "Intermediate",
-    "Description": "Certified through Reality Forge (Unreal Authorized Training Center), with hands-on experience gained during coursework in Unreal Engine's tools and features, including Blueprints, level design, materials, physics, animations, player inputs, and UI/UX design. Although this experience has been educational rather than professional, it provided a strong foundation in creating immersive environments and developing gameplay mechanics within Unreal."
+    "Description": "Used for authentication, player data, analytics, and live-game backend support across Unity projects."
+  },
+  "google_cloud": {
+    "Skill": "Google Cloud",
+    "Rating (5)": 3,
+    "Level": "Intermediate",
+    "Description": "Supported server-side features, API integration, and live game infrastructure using Google Cloud services."
+  },
+  "git": {
+    "Skill": "GIT",
+    "Rating (5)": 4,
+    "Level": "Advanced",
+    "Description": "Used for version control, collaboration, branching workflows, and keeping projects organized across teams."
+  },
+  "cicd": {
+    "Skill": "CI/CD Pipelines",
+    "Rating (5)": 4,
+    "Level": "Advanced",
+    "Description": "Built and maintained automated build pipelines for Unity projects, including branch selection, upload steps, and notifications."
+  },
+  "rest_apis": {
+    "Skill": "REST APIs",
+    "Rating (5)": 3,
+    "Level": "Intermediate",
+    "Description": "Used for client-server communication, data exchange, and integrating gameplay systems with external services."
   }
 }

@@ -1,26 +1,26 @@
 {
   "multiplayer_game_development": {
     "Skill name": "Multiplayer Game Development",
-    "Description": "Experienced in implementing real-time multiplayer features, including network synchronization, matchmaking, and lobby systems using Photon Fusion and PUN2. Demonstrated ability to design and develop multiplayer gameplay experiences, ensuring smooth functionality across different devices and network conditions."
+    "Description": "Experienced in building real-time multiplayer systems using Photon Fusion and PUN2, including synchronization, matchmaking, and lobby flows. Focused on keeping online gameplay smooth and reliable across devices and network conditions."
   },
-  "game_localization": {
-    "Skill name": "Game Localization",
-    "Description": "Skilled in creating custom localization packages, including seamless integration of multi-language support and content management using external tools like Google Sheets for efficient translation handling."
+  "gameplay_systems": {
+    "Skill name": "Gameplay Systems",
+    "Description": "Designed and implemented flexible gameplay systems for mobile, WebGL, and live game projects. Comfortable shaping code that supports both player-facing features and future content expansion."
   },
-  "dialogue_systems": {
-    "Skill name": "Dialogue Systems",
-    "Description": "Proficient in developing dynamic, branching dialogue systems that support flexible decision-making and influence the narrative, creating immersive, player-driven experiences."
+  "editor_tools_workflow": {
+    "Skill name": "Editor Tools & Workflow",
+    "Description": "Built custom Unity tools and debug utilities to improve level creation, QA, and production workflows. Aim to make systems easier for designers and other developers to use day to day."
   },
-  "monetization_(in-app_purchases_&_ads)": {
-    "Skill name": "Monetization (In-App Purchases & Ads)",
-    "Description": "Experienced in integrating in-app purchases and Unity Ads for mobile games, optimizing monetization without disrupting the gameplay experience, and enhancing user engagement."
+  "backend_integration": {
+    "Skill name": "Backend Integration",
+    "Description": "Integrated Firebase, Google Cloud, and REST APIs into live games for player data, authentication, and server-side support. Experienced in connecting game clients to backend services without making code hard to maintain."
   },
-  "database_management": {
-    "Skill name": "Database Management",
-    "Description": "Familiar with managing cloud-based player data and integrating services like Firebase for real-time data syncing, authentication, and player data storage."
+  "optimization": {
+    "Skill name": "Optimization",
+    "Description": "Worked on performance improvements through object pooling, profiling, mesh compression, and general gameplay tuning. Focused on keeping mobile projects responsive and efficient."
   },
-  "game_optimization": {
-    "Skill name": "Game Optimization",
-    "Description": "Skilled in optimizing games for mobile platforms, focusing on performance, load times, and user experience to ensure smooth gameplay on a variety of devices."
+  "production_support": {
+    "Skill name": "Production Support",
+    "Description": "Supported releases, CI/CD workflows, and live-ops features across multiple projects. Comfortable working across gameplay, tooling, and deployment tasks when projects need steady delivery."
   }
 }

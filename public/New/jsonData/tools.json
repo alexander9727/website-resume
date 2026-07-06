@@ -1,0 +1,22 @@
+{
+  "languages": {
+    "Group": "Languages",
+    "Items": ["C#"]
+  },
+  "engine": {
+    "Group": "Game Engine",
+    "Items": ["Unity"]
+  },
+  "networking": {
+    "Group": "Networking",
+    "Items": ["Photon Fusion", "Photon PUN"]
+  },
+  "backend": {
+    "Group": "Backend",
+    "Items": ["Firebase", "Google Cloud"]
+  },
+  "other": {
+    "Group": "Other",
+    "Items": ["GIT", "CI/CD Pipelines", "REST APIs"]
+  }
+}
